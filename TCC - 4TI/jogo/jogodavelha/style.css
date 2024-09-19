@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(file:///home/escola/Downloads/TCC%20-%204TI/login/TCC%20-%204TI/jogo/jogodavelha/img/X.png);
+  background-image: url(img/X.png);
 }
 
 main {
