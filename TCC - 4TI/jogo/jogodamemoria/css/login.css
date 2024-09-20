@@ -1,11 +1,21 @@
+* {
+  box-sizing: border-box; /* Para garantir que padding e border não afetem o tamanho */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 .login-form {
-  background-image: url(file:///home/escola/Downloads/TCC%20-%204TI/login/TCC%20-%204TI/jogo/jogodamemoria/images/bg.png);
+  background-image: url('./images/bg.png'); /* Ajuste o caminho relativo para a imagem */
+  background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
   align-items: center;
   display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  overflow: hidden;
+  padding: 20px; /* Adiciona espaçamento nas bordas */
 }
 
 .login__header {
@@ -13,18 +23,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px; /* Diminui a margem para melhor responsividade */
 }
 
 .login__header img {
-  width: 250px;
+  width: 80%; /* Torna a imagem responsiva */
+  max-width: 250px; /* Limita a largura máxima */
 }
-
-
 
 .login__header h1 {
   color: #333;
   font-size: 1.5em;
+  text-align: center;
+  margin: 10px 0; /* Margens em cima e embaixo */
 }
 
 .login__input {
@@ -33,7 +44,7 @@
   color: #333;
   font-size: 1em;
   margin-bottom: 15px;
-  max-width: 300px;
+  max-width: 300px; /* Largura máxima conforme seu estilo original */
   outline: none;
   padding: 15px;
   width: 100%;
@@ -46,7 +57,7 @@
   color: #fff;
   cursor: pointer;
   font-size: 1em;
-  max-width: 300px;
+  max-width: 300px; /* Ajuste para largura máxima */
   padding: 15px;
   width: 100%;
 }
@@ -69,8 +80,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  }
-  
-  .botao-voltar img {
-  width: 70%; /* Tamanho do ícone do WhatsApp */
-  } 
+}
+
+.botao-voltar img {
+  width: 70%; /* Tamanho do ícone do botão */
+}

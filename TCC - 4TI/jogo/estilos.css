@@ -1,40 +1,23 @@
-
-bbody, html {
-    background-color: #9bfbff;
-    height: 10%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+html, body {
+    background-color: #9bfbff; /* Define a cor de fundo apenas aqui */
+    height: 100%; /* Garante que a altura do fundo cubra toda a página */
+    margin: 0; /* Remove margens padrão */
 }
 
 .container {
-    background-color: #9bfbff;
     position: relative;
-    height: 100%;
+    width: 100%; /* Faz a container ocupar toda a largura disponível */
+    max-width: 1200px; /* Largura máxima opcional */
     display: flex;
     justify-content: center;
-    align-items: right;
+    align-items: flex-start; /* Alinhamento correto */
 }
 
 img {
-    background-color: #9bfbff;
-    position: center;
-    top: 0;
-    left: 0%;
-    transform: translateX( 0%);
-
+    display: block; /* Remove espaço indesejado abaixo da imagem */
+    max-width: 100%; /* Garante que as imagens não excedam a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
 }
-
-
-na duvida apagar em cima
-
-
-
-body {
-    background-color: #9bfbff;
-}
-
 
 .texto-menor {
     font-size: 13px;
@@ -49,17 +32,17 @@ body {
 }
 
 .botao-lilas {
-    background-color: #ff4b4b;
+    background-color: #ff4b4b; /* Cor do botão lilás */
 }
 
 .verde-limao {
-    color: #ffffff;
+    color: #ffffff; /* Cor do texto verde limão */
 }
 
 @media (min-width: 768px) {
     .div-novidades {
         width: 696px;
-        background-color: #F9E698;
+        background-color: #F9E698; /* Mantenha esta cor onde necessário */
     }
 }
 
@@ -69,16 +52,13 @@ body {
     right: 20px;
     width: 50px;
     height: 50px;
-    background-color: #9bfbff; /* Cor de fundo do botão */
+    background-color: transparent; /* Cor de fundo do botão */
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    }
-    
-    .whatsapp-btn img {
+}
+
+.whatsapp-btn img {
     width: 70%; /* Tamanho do ícone do WhatsApp */
-    } 
-   
-
-
+}
