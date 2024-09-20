@@ -1,5 +1,5 @@
 .login-form {
-  background-image: url(file:///home/escola/Downloads/TCC%20-%204TI/login/TCC%20-%204TI/jogo/jogodamemoria/images/bg.png);
+  background-image: url(./bg.png);
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -69,8 +69,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.botao-voltar img {
+  }
+  
+  .botao-voltar img {
   width: 70%; /* Tamanho do ícone do WhatsApp */
-}
+  } 
