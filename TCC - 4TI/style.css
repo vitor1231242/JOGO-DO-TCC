@@ -93,3 +93,26 @@ body {
         width: 15vw; /* Ajuste de tamanho para telas menores */
     }
 }
+@media (max-width: 480px) {
+    .botao-redondo, .botao-redondo2 {
+        width: 25vw; /* Ajuste de tamanho para telas menores */
+        height: 25vw;
+    }
+
+    .footer-icon {
+        width: 15vw; /* Ajuste de tamanho para telas menores */
+    }
+
+   
+    #teste{
+        background-image: url('./img/background.jpg');
+        position: absolute; /* Faz com que a imagem ocupe o banner */
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 100%;
+        object-fit: cover; 
+        object-position: center;/* Faz a imagem cobrir toda a área do banner mantendo a proporção 
+         /* Centraliza a imagem */
+    }
+}
